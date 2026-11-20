@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+}
+
+header {
+  background-color: #2c5fff;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.outils {
+  text-align: center;
+  padding-top: 24px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2c5fff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e47cc;
+}
+
+.cartes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 30px 20px;
+}
+
+.carte {
+  position: relative;
+  background-color: white;
+  width: 260px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carte h2 {
+  margin-top: 0;
+  color: #2c5fff;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #e63946;
+  color: white;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.ancien-prix {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.prix strong {
+  font-size: 1.4rem;
+  color: #2c5fff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
+
+.avis {
+  background-color: #fff3cd;
+  text-align: center;
+  padding: 12px;
+  margin: 0;
+}

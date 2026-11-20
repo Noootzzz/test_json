@@ -1,0 +1,26 @@
+[
+  {
+    "nom": "Initiation à l'escalade",
+    "description": "2 heures avec un moniteur diplômé, matériel fourni.",
+    "prix": 25,
+    "prixPromo": 20
+  },
+  {
+    "nom": "Balade en kayak",
+    "description": "Une demi-journée sur la rivière, ouvert aux débutants.",
+    "prix": 30,
+    "prixPromo": null
+  },
+  {
+    "nom": "Atelier poterie",
+    "description": "Crée ta propre tasse et repars avec.",
+    "prix": 40,
+    "prixPromo": 34
+  },
+  {
+    "nom": "Randonnée guidée",
+    "description": "Une journée en forêt avec un guide local.",
+    "prix": 15,
+    "prixPromo": null
+  }
+]
